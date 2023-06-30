@@ -10,7 +10,7 @@
 /* banner background image */
 .bckgndimage {
     height:80vh;
-    background: url('images/pexels-pixabay-366283.jpg');
+    background: url('/src/pages/images/pexels-pixabay-366283.jpg');
     background-size:cover;
     position:relative;
     padding: 0;
