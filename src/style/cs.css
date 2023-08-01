@@ -113,3 +113,21 @@ body {
 .break {
     color: white;
 }
+
+.textWhite {
+    color: white;
+}
+
+.courseCard {
+    background-color: #202126;
+    border: 0.5px solid rgb(255,255,255, 0.2);
+
+}
+
+.cardIcon {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 10%;
+    width: 15%;
+}
