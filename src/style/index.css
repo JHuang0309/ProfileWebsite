@@ -21,13 +21,9 @@
     background-image: linear-gradient(to right, rgb(189, 0, 0), orange);
 }
 
-
-
 .grad2 {
     background-image: linear-gradient(to right,rgb(188, 12, 241), rgb(24, 197, 255));
 }
-
-
 
 /* text css above banner image*/
 .banner_title {
@@ -89,45 +85,29 @@
     margin-right: 10px;
 }
 
+.cardButton:hover {
+    background-color: linear-gradient(to right,rgb(188, 12, 241), rgb(24, 197, 255));
+}
+
+/* background change hover 
 .cardHover:hover {
     background-color: black;
     animation: fadeInBackground ease 1s; 
     color: white;
 
 }
-/*
-.textHover:hover {
-    animation: fadeInText ease-in 1s;
-    animation-iteration-count: infinite;
-
-}
 */
 
-@keyframes fadeInBackground {
-    from {
-        background-color: white;
-        colour: black;
-    }
-    to {
-        background-color: black;
-        color: white;
-    }
+.card {
+    box-shadow: 1px 1px 2px 0px black;
+    border-radius:10px;
+    width: 48%;
 }
 
-/*
-@keyframes fadeInText {
-    from {
-        background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(24, 197, 255));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    to {
-        background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(24, 197, 255));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+.CScard {
+    margin-left: auto;
+    margin-right: 0px;
 }
-*/
 
 /* text italics */
 .italics {
