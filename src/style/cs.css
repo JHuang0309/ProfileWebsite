@@ -23,6 +23,10 @@ body {
     align-items: center;
 }
 
+.navbar {
+    background-color: #202126;
+}
+
 /* text css above banner image*/
 .banner_title {
     padding-top: 2rem;
@@ -121,13 +125,47 @@ body {
 .courseCard {
     background-color: #202126;
     border: 0.5px solid rgb(255,255,255, 0.2);
-
+    max-height: fit-content;
+    padding-bottom: 20px;;
 }
 
 .cardIcon {
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
-    height: 10%;
-    width: 15%;
+    height: 5%;
+    width: 13%;
+}
+
+.cardContent {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.pinkBadge {
+    background-color: rgba(251,72,196, 0.8);
+    color: white;
+}
+
+.blueBadge {
+    background-color: rgb(133, 237, 255, 0.8);
+    color: white;
+}
+
+.cardTitle {
+    font-size: 22px;
+}
+
+hr {
+    color: white;
+    border-width: 1px;
+    margin-right: 20px;;
+}
+
+.btn {
+    font-size: 15px;
+}
+
+.modal-content {
+    background-color: #202126;
+    color: white;
 }
