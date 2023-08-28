@@ -126,12 +126,13 @@ body {
     background-color: #202126;
     border: 0.5px solid rgb(255,255,255, 0.2);
     max-height: fit-content;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
 }
 
 .cardIcon {
     margin-top: 15px;
     margin-bottom: 10px;
+    margin-right:10px;
     height: 5%;
     width: 13%;
 }
@@ -148,6 +149,11 @@ body {
 
 .blueBadge {
     background-color: rgb(133, 237, 255, 0.8);
+    color: white;
+}
+
+.purpleBadge {
+    background-color: rgba(178, 83, 255, 0.8);
     color: white;
 }
 
