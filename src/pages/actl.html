@@ -3,7 +3,170 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Actuarial Studies</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animation of Scroll Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- linking to css file -->
+    <link rel="stylesheet" href="../style/actl.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+      <div class="container">
+        <!-- navbar is breakpoint responsive -->
+        <a class="navbar-brand" href="#">Jayden</a>
+        <!-- toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <!-- navbar pages -->
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./actl.html">Actuarial Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cs.html">Computer Science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="container-fluid section bckgndimage" id="home">
+      <div class="row">
+        <!-- spread across the entire page at all viewport sizes-->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 banner_text">
+          <h2 class="banner_title">
+            <font color="black">I Study</font> Actuarial Studies
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section mt-4" id="courses">
+      <h1 class="headerOne">Courses</h1>
+      <hr class="break" />
+      <div class="row mt-1">
+        <div class="col-lg-4">
+          <div class="card courseCard">
+            <div class="cardContent">
+              <img class="cardIcon" src="./images/C.png" />
+              <h3 class="textWhite cardTitle">Programming Fundamentals</h3>
+              <span class="badge badge-pill pinkBadge">C</span>
+              <div>
+                <hr />
+                <p class="textWhite">
+                  Introduction to the basics of computer programming and
+                  computer science.
+                </p>
+                <p class="textWhite">
+                  Course Code: COMP1511 <br />Grade: High Distinction
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#COMP1511Topics"
+                >
+                  Course Reflection
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card courseCard">
+            <div class="cardContent">
+              <img class="cardIcon" src="./images/JavaScript-logo.png" />
+              <img class="cardIcon" src="./images/TypescriptLogo.png" />
+              <h3 class="textWhite cardTitle">
+                Software Engineering Fundamentals
+              </h3>
+              <span class="badge badge-pill pinkBadge">JavaScript</span>
+              <span class="badge badge-pill blueBadge">Typescript</span>
+              <span class="badge badge-pill purpleBadge">Gitlab</span>
+              <div>
+                <hr />
+                <p class="textWhite">
+                  Implementing a group project using agile software
+                  methodologies to analyse, design, build and deploy a web-based
+                  application
+                </p>
+                <p class="textWhite">
+                  Course Code: COMP1531 <br />Grade: High Distinction
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#COMP1531Topics"
+                >
+                  Course Reflection
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card courseCard">
+            <div class="cardContent">
+              <img class="cardIcon" src="./images/C.png" />
+              <h3 class="textWhite cardTitle">
+                Data Structures and Algorithms
+              </h3>
+              <span class="badge badge-pill pinkBadge">C</span>
+              <div>
+                <hr />
+                <p class="textWhite">
+                  Introduction to the structure, analysis and usage of a range
+                  of fundamental data types and the core algorithms that operate
+                  on them
+                </p>
+                <p class="textWhite">
+                  Course Code: COMP2521 <br />Grade: High Distinction
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#COMP2521Topics"
+                >
+                  Course Reflection
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
