@@ -507,29 +507,209 @@
           </div>
           <div class="modal-body">
             <p><strong>Personal Reflection</strong></p>
-            <p>text</p>
+            <p>
+              COMP2521 is a course that begins to scratch the surface of more
+              advanced computer science concepts. Oftentimes introducing
+              theoretical concepts and then demonstrating their application to
+              real-world scenarios, which highlight the fascinating level of
+              complexity implemented in current modern software systems. The
+              course ties in mathematics concepts in the form of Graph Theory
+              and Big-O Notation, which provides a unique algebraic perspective
+              on computer science topics. Topics such as performance costs
+              analysis and abstraction (ADTs) are cleverly weaved together and
+              interlinked to other topics in the course to allow for a deeper
+              understanding of their application and relevance in other areas of
+              computer science. analysis and abstract data types.
+            </p>
             <p><strong>Topics covered in course</strong></p>
             <p><u>Compilation and Makefiles</u></p>
             <ul>
-              <li></li>
+              <li>
+                Operating the Gnu C Compiler (<code>GCC</code>): Understanding
+                compilation stages including Pre-processing, Compiling and
+                Linking
+              </li>
+              <li>
+                Utilising Makefiles: specifying the target, source, and
+                commands. Using flags such as <code>-Wall</code>,
+                <code>-Werror</code>, <code>-O</code>, and creating variables
+                using the <code>$</code> operator
+              </li>
             </ul>
             <p><u>Performance Analysis: Big-O</u></p>
-            <p>text</p>
+            <ul>
+              <li>Writing algorithms and pseudocode</li>
+              <li>
+                Measuring literal program run time using the
+                <kbd>time</kbd> command in the terminal.
+              </li>
+              <li>Big-O Notation: asymptotic analysis of algorithms</li>
+              <li>
+                Complexity Classes: Polynomial Time (<code>P</code>, Tractable)
+                and Non-polynomial Time (<code>NP</code>, Intractable) and
+                Non-computable problems.
+              </li>
+              <li>Coarse-grained and Fine-grained performance analysis</li>
+              <li>Identifying hot spots and execution profiles</li>
+              <li>
+                Using the <code>gprof</code> Profiler: creating Flat Profiles
+                and Call Graphs
+              </li>
+            </ul>
             <p><u>Abstract Data Types</u></p>
-            <p>text</p>
+            <ul>
+              <li>
+                Setting up ADTs: creating ADT interfaces in
+                <code>.h</code> files and implementations in
+                <code>.c</code> files
+              </li>
+              <li>
+                Collections - Set ADTs: creating a collection of operations,
+                setting Pre/Post conditions
+              </li>
+            </ul>
             <p><u>GDB and Valgrind</u></p>
+            <ul>
+              <li>
+                Using portable debuggers such as GDB: setting and executing
+                through break points in code
+              </li>
+              <li>Detexting memory leaks using Valgrind</li>
+            </ul>
             <p><u>Trees</u></p>
             <ul>
-              <li>Binary Search Trees</li>
+              <li>
+                Binary Search Trees (BST) - ADT implementation
+                <ul>
+                  <li>Insertion of a tree node</li>
+                  <li>
+                    Tree Traversal / Search: Preorder, In-order, Postorder, and
+                    Level Order traversal
+                  </li>
+                  <li>Joining two BSTs</li>
+                  <li>Removing a node from a tree</li>
+                </ul>
+              </li>
+              <li>
+                Balanced Binary Search Trees: Rotations, Partitions, and Root
+                Insertion
+              </li>
               <li>AVL Trees</li>
               <li>2-3-4 Trees</li>
             </ul>
-            <p><u>Graph Representations</u></p>
+            <p><u>Graph Theory</u></p>
+            <ul>
+              <li>
+                Graph Representation: Array of Edges, Adjacency Matrix,
+                Adjacency List
+              </li>
+              <li>
+                Graph Traversal: Bread-first Search and Depth-first Search
+              </li>
+              <li>
+                Graph Algorithms:
+                <ul>
+                  <li>Cycle Checking: identifying connected components</li>
+                  <li>Hamiltonian Paths and Circuits</li>
+                  <li>Euler Paths and Circuits</li>
+                </ul>
+              </li>
+              <li>
+                Directed Graphs (Digraphs) and Weighted Graphs
+                <ul>
+                  <li>Vertex Degree</li>
+                  <li>Directed Paths</li>
+                  <li>Vertex Reachability and Strong connectivity</li>
+                  <li>Directed Acyclic Graphs</li>
+                </ul>
+              </li>
+              <li>
+                Minimum Spanning Trees
+                <ul>
+                  <li>Kruskal's Algorithm</li>
+                  <li>Prim's Algorithm</li>
+                </ul>
+              </li>
+              <li>
+                Shortest Path Problems
+                <ul>
+                  <li>
+                    Problem Variations: Source-Target, Single-Source, and
+                    All-Pairs
+                  </li>
+                  <li>Edge Relaxation process</li>
+                  <li>Dijkstra's Algorithm</li>
+                </ul>
+              </li>
+            </ul>
             <p><u>Sorts</u></p>
+            <ul>
+              <li>Sorting Algorithm Properties: Stability and Adaptability</li>
+              <li>
+                O(N<sup>2</sup>) Sorting Algorithms
+                <ul>
+                  <li>Selection Sort</li>
+                  <li>Bubble Sort</li>
+                  <li>Insertion Sort</li>
+                  <li>Shellsort</li>
+                </ul>
+              </li>
+              <li>
+                O(N log<sub>2</sub>(N)) Sorting Algorithms
+                <ul>
+                  <li>Mergesort</li>
+                  <li>Quicksort</li>
+                  <li>Heapsort</li>
+                </ul>
+              </li>
+            </ul>
             <p><u>Heaps and Priority Queues</u></p>
+            <ul>
+              <li>Heap Insertion and Deletion</li>
+              <li>
+                Priority Queue: application of heap insertion and deletion to a
+                queue structure
+              </li>
+            </ul>
             <p><u>Hashing</u></p>
+            <ul>
+              <li>Ordered and Associative Containers</li>
+              <li>
+                ADT Implementation and Hash Operations: Insertion, Hash
+                Generation, Hash Deletion
+              </li>
+              <li>
+                Collision Resolution: Seperate Chaining, Linear Probing, Double
+                Hashing
+              </li>
+            </ul>
             <p><u>Tries</u></p>
+            <ul>
+              <li>
+                Possible Implementations of Trie Searches, Insertion, and
+                Deletion
+              </li>
+              <li>Compressed Tries</li>
+            </ul>
             <p><strong>Assessments</strong></p>
+            <p><u>Simulation of a Simple Webpage Network</u></p>
+            <ul>
+              <li>
+                <strong
+                  >URL Network Graph Representation and Page Rank
+                  Calculation</strong
+                >: Program that reads data from a collection of page URLs and
+                builds a graph structure using an adjacency list, then
+                calculates the 'Page Rank' of a URL in the collection based on
+                certain criteria such as number of outgoing and incoming links.
+              </li>
+              <li>
+                <strong>Search Page Rank</strong>: Process that works as a
+                simple search enginge that takes one or more search terms and
+                outputs relevant urls based on the number matching search terms
+                and a weighted Page Rank.
+              </li>
+            </ul>
           </div>
           <div class="modal-footer">
             <button
