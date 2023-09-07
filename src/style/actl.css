@@ -7,6 +7,12 @@
     margin: 0;
 }
 
+/* navbar adaptive appearance - White */
+.navbarWhite {
+    background: #ffffff;
+    color: black;
+}
+
 .section {
     margin-top: 0rem;
     padding-top: 2rem;
@@ -17,7 +23,7 @@
     font-size: 4.5rem;
 }
 .banner_desc {
-    font-size: 2.5rem;
+    font-size: 20px;
 }
 .banner_text {
     text-align: center;
@@ -31,11 +37,6 @@
 .headerOne {
     font-size: 70px;
 }
-
-.break {
-    color: white;
-}
-
 
 .courseCard {
     border: 1px solid rgba(36, 34, 34, 0.2);
@@ -54,4 +55,35 @@
 .cardContent {
     padding-left: 20px;
     padding-right: 10px;
+}
+
+.greenBadge {
+    background-color: rgba(0, 152, 46, 0.8);
+    color: white;
+}
+
+.orangeBadge {
+    background-color: rgba(250, 75, 0, 0.8);
+    color: white;
+}
+
+.redBadge {
+    background-color: rgba(255, 0, 149, 0.8);
+    color: white;
+}
+
+.blueBadge {
+    background-color: rgba(0, 179, 255, 0.8);
+    color: white;
+}
+
+.darkBlueBadge {
+    background-color: rgba(0, 81, 188, 0.932);
+    color: white;
+}
+
+.cardTitle {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;;
 }
